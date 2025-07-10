@@ -80,3 +80,40 @@ console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+// ********* Comparison*********
+
+// console.log(2 > 1);
+// console.log(2 >= 1);
+// console.log(2 < 1);
+// console.log(2 == 1);
+// console.log(2 != 1);
+
+
+// console.log("2" > 1);
+// console.log("02" > 1);
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+/*
+The == operator is loose equality, which allows type coercion but follows specific rules.
+
+However, null is only loosely equal to undefined.
+
+So: null == undefined → true
+
+But: null == 0 → false
+
+👉 Because JavaScript does not convert null to 0 in this comparison, it's false.
+
+
+
+*/
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+
+// === 
+
+console.log("2" === 2);
