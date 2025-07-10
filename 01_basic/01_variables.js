@@ -7,6 +7,7 @@ let accountState;
 
 // accountId = 2 // not allowed
 // without var likhe ek variable create kr skte hai
+// this
 
 
 accountEmail = "hc@hc.com"
