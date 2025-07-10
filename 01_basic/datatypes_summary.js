@@ -40,3 +40,29 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//
+// ++++++++++++++++++++++++ memory
+ // stack(primitive) call by value          heap(non primitive)call by refrence
+  let myyoutube ="hellojaihind"
+
+  let anothername = myyoutube
+  anothername= "chaicoffee"
+  console.log(myyoutube)
+  console.log(anothername)
+
+
+  let userOne = {
+    email: "avneesh@gmail.com",
+    upi:"userybl"
+    
+  }
+  let userTwo=userOne
+
+  userTwo.email= "avanish@gmail.com"
+
+  console.log(userOne.email)
+    console.log(userTwo.email)
+
+  
