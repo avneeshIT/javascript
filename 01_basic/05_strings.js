@@ -3,14 +3,18 @@ const repocont=50
 
 console.log(`hello my name is ${namei} and my current repo ${repocont}`)
 
-const name = "hitesh"
+const name = "hitesh" 
+// primitive string
 const repoCount = 50
 
 // console.log(name + repoCount + " Value");
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('hitesh-hc-com')
+const gameName = new String('hitesh-hc-com') /*.  new String() creates a String object, not a primitive string.
+It adds extra properties and methods — you saw them all in the console.
+it wraps the primitve string in string obejct
+ */
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__); to see the objects
